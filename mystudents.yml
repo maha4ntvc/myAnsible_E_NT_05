@@ -1,0 +1,14 @@
+---
+- mystudents: 
+
+  - name: siri
+    phno: 77777777
+    add:  hyd
+
+  -  name: geeta
+     phno: 666666666
+     add:  hyd
+
+  - name: raju
+    phno:  7788999999
+    add:   hyd
