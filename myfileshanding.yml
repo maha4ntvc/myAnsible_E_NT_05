@@ -12,3 +12,11 @@
     template:
         src: myindex.j2
         dest: /var/www/html/index.html
+
+  - name: i want to download remote files into ansible nodes
+    get_url:
+       url: https://get.jenkins.io/war-stable/2.303.1/jenkins.war
+       dest: /home/maha/jenkins.war
+       force_basic_auth: yes
+
+        
